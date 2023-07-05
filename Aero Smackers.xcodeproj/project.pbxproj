@@ -7,13 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38672B142A55C98000CBA334 /* PlisManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38672B132A55C98000CBA334 /* PlisManager.swift */; };
+		38672B1C2A55C9A400CBA334 /* Aero_SmackersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38672B1B2A55C9A400CBA334 /* Aero_SmackersTests.swift */; };
+		38672B242A55C9E200CBA334 /* PlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38672B232A55C9E200CBA334 /* PlistTests.swift */; };
+		38672B262A55CA2A00CBA334 /* AeroSmackers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38672B252A55CA2A00CBA334 /* AeroSmackers.plist */; };
+		38672B282A55CAF700CBA334 /* AeroContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38672B272A55CAF700CBA334 /* AeroContentManager.swift */; };
 		387614F02A41B20E00FBD072 /* Aero_SmackersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387614EF2A41B20E00FBD072 /* Aero_SmackersApp.swift */; };
 		387614F22A41B20E00FBD072 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387614F12A41B20E00FBD072 /* ContentView.swift */; };
 		387614F42A41B21100FBD072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387614F32A41B21100FBD072 /* Assets.xcassets */; };
 		387614F72A41B21100FBD072 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387614F62A41B21100FBD072 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		38672B1D2A55C9A400CBA334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 387614E42A41B20E00FBD072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 387614EB2A41B20E00FBD072;
+			remoteInfo = "Aero Smackers";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		38672B132A55C98000CBA334 /* PlisManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlisManager.swift; sourceTree = "<group>"; };
+		38672B192A55C9A400CBA334 /* Aero SmackersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aero SmackersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38672B1B2A55C9A400CBA334 /* Aero_SmackersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aero_SmackersTests.swift; sourceTree = "<group>"; };
+		38672B232A55C9E200CBA334 /* PlistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistTests.swift; sourceTree = "<group>"; };
+		38672B252A55CA2A00CBA334 /* AeroSmackers.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AeroSmackers.plist; sourceTree = "<group>"; };
+		38672B272A55CAF700CBA334 /* AeroContentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeroContentManager.swift; sourceTree = "<group>"; };
 		387614EC2A41B20E00FBD072 /* Aero Smackers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aero Smackers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		387614EF2A41B20E00FBD072 /* Aero_SmackersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aero_SmackersApp.swift; sourceTree = "<group>"; };
 		387614F12A41B20E00FBD072 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +43,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		38672B162A55C9A400CBA334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		387614E92A41B20E00FBD072 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +60,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38672B122A55C91400CBA334 /* TestManager */ = {
+			isa = PBXGroup;
+			children = (
+				38672B132A55C98000CBA334 /* PlisManager.swift */,
+				38672B272A55CAF700CBA334 /* AeroContentManager.swift */,
+			);
+			path = TestManager;
+			sourceTree = "<group>";
+		};
+		38672B1A2A55C9A400CBA334 /* Aero SmackersTests */ = {
+			isa = PBXGroup;
+			children = (
+				38672B222A55C9C400CBA334 /* Plist */,
+				38672B1B2A55C9A400CBA334 /* Aero_SmackersTests.swift */,
+			);
+			path = "Aero SmackersTests";
+			sourceTree = "<group>";
+		};
+		38672B222A55C9C400CBA334 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				38672B232A55C9E200CBA334 /* PlistTests.swift */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
 		387614E32A41B20E00FBD072 = {
 			isa = PBXGroup;
 			children = (
 				387614EE2A41B20E00FBD072 /* Aero Smackers */,
+				38672B1A2A55C9A400CBA334 /* Aero SmackersTests */,
 				387614ED2A41B20E00FBD072 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				387614EC2A41B20E00FBD072 /* Aero Smackers.app */,
+				38672B192A55C9A400CBA334 /* Aero SmackersTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +107,12 @@
 		387614EE2A41B20E00FBD072 /* Aero Smackers */ = {
 			isa = PBXGroup;
 			children = (
+				38672B122A55C91400CBA334 /* TestManager */,
 				387614EF2A41B20E00FBD072 /* Aero_SmackersApp.swift */,
 				387614F12A41B20E00FBD072 /* ContentView.swift */,
 				387614F32A41B21100FBD072 /* Assets.xcassets */,
 				387614F52A41B21100FBD072 /* Preview Content */,
+				38672B252A55CA2A00CBA334 /* AeroSmackers.plist */,
 			);
 			path = "Aero Smackers";
 			sourceTree = "<group>";
@@ -70,6 +128,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		38672B182A55C9A400CBA334 /* Aero SmackersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38672B1F2A55C9A400CBA334 /* Build configuration list for PBXNativeTarget "Aero SmackersTests" */;
+			buildPhases = (
+				38672B152A55C9A400CBA334 /* Sources */,
+				38672B162A55C9A400CBA334 /* Frameworks */,
+				38672B172A55C9A400CBA334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38672B1E2A55C9A400CBA334 /* PBXTargetDependency */,
+			);
+			name = "Aero SmackersTests";
+			productName = "Aero SmackersTests";
+			productReference = 38672B192A55C9A400CBA334 /* Aero SmackersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		387614EB2A41B20E00FBD072 /* Aero Smackers */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 387614FA2A41B21100FBD072 /* Build configuration list for PBXNativeTarget "Aero Smackers" */;
@@ -97,6 +173,10 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					38672B182A55C9A400CBA334 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 387614EB2A41B20E00FBD072;
+					};
 					387614EB2A41B20E00FBD072 = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -116,27 +196,47 @@
 			projectRoot = "";
 			targets = (
 				387614EB2A41B20E00FBD072 /* Aero Smackers */,
+				38672B182A55C9A400CBA334 /* Aero SmackersTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		38672B172A55C9A400CBA334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		387614EA2A41B20E00FBD072 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				387614F72A41B21100FBD072 /* Preview Assets.xcassets in Resources */,
 				387614F42A41B21100FBD072 /* Assets.xcassets in Resources */,
+				38672B262A55CA2A00CBA334 /* AeroSmackers.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		38672B152A55C9A400CBA334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38672B242A55C9E200CBA334 /* PlistTests.swift in Sources */,
+				38672B1C2A55C9A400CBA334 /* Aero_SmackersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		387614E82A41B20E00FBD072 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38672B282A55CAF700CBA334 /* AeroContentManager.swift in Sources */,
+				38672B142A55C98000CBA334 /* PlisManager.swift in Sources */,
 				387614F22A41B20E00FBD072 /* ContentView.swift in Sources */,
 				387614F02A41B20E00FBD072 /* Aero_SmackersApp.swift in Sources */,
 			);
@@ -144,7 +244,53 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		38672B1E2A55C9A400CBA334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 387614EB2A41B20E00FBD072 /* Aero Smackers */;
+			targetProxy = 38672B1D2A55C9A400CBA334 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		38672B202A55C9A400CBA334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P86R4M9F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "space.etonealbert.Aero-SmackersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aero Smackers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aero Smackers";
+			};
+			name = Debug;
+		};
+		38672B212A55C9A400CBA334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P86R4M9F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "space.etonealbert.Aero-SmackersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aero Smackers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aero Smackers";
+			};
+			name = Release;
+		};
 		387614F82A41B21100FBD072 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -275,6 +421,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +451,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,6 +468,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		38672B1F2A55C9A400CBA334 /* Build configuration list for PBXNativeTarget "Aero SmackersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38672B202A55C9A400CBA334 /* Debug */,
+				38672B212A55C9A400CBA334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		387614E72A41B20E00FBD072 /* Build configuration list for PBXProject "Aero Smackers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
